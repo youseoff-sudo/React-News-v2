@@ -9,12 +9,7 @@ function NewsGrid() {
   useEffect(() => {
     const getFootballNews = async () => {
       try {
-        const apiKey = import.meta.env.VITE_GNEWS_API_KEY;
-
-        if (!apiKey) {
-          throw new Error("API key is missing");
-        }
-
+        const apiKey = "9979ed87c77844eb064c2d2fcdc2bf8b";
         const params = new URLSearchParams({
           q: "football OR soccer",
           lang: "en",
