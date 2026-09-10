@@ -3,5 +3,5 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/React-News v2/", 
+  base: "/React-News-v2/", 
 })
