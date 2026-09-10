@@ -9,31 +9,18 @@ function NewsGrid() {
   useEffect(() => {
     const getFootballNews = async () => {
       try {
-        const apiKey = "9979ed87c77844eb064c2d2fcdc2bf8b";
-        const params = new URLSearchParams({
-          q: "football OR soccer",
-          lang: "en",
-          sortby: "publishedAt",
-          max: "6",
-          apikey: apiKey,
-        });
-
-        const response = await fetch(
-          `https://gnews.io/api/v4/search?${params.toString()}`
-        );
+        const response = await fetch(`${import.meta.env.BASE_URL}news.json`);
 
         const data = await response.json();
 
         if (!response.ok) {
-          throw new Error(
-            data.errors?.[0] || "Failed to fetch football news"
-          );
+          throw new Error(data.error || "Failed to load football news");
         }
 
-        setNews(data.articles || []);
+        setNews(data.articles || data);
       } catch (error) {
         console.error("Football news error:", error);
-        setError(error.message);
+        setError("Football news is temporarily unavailable.");
       } finally {
         setLoading(false);
       }
