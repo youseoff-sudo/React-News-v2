@@ -4,8 +4,24 @@
       "message": "Real-time news data is only available on paid plans. Free plan has a 12-hour delay. Upgrade your plan here to remove the delay: https://gnews.io/change-plan"
     }
   },
-  "totalArticles": 458232,
+  "totalArticles": 458233,
   "articles": [
+    {
+      "id": "9b0b2b6923c600060366a7885b90f040",
+      "title": "The Traitors Ireland is 'like football",
+      "description": "As The Traitors Ireland returns to our screens, we visit the Slane Castle set to get the inside scoop from host Siobhan McSweeney and producer Darren Smith.",
+      "content": "As The Traitors Ireland returns to our screens, we visit the Slane Castle set to get the inside scoop from host Siobhan McSweeney and producer Darren Smith.\nAs the nation retires to its couches and televisions, now that the grand stretchy evenings of... [6416 chars]",
+      "url": "https://extra.ie/2026/09/09/hotpress/traitors-ireland-is-like-football",
+      "image": "https://extra.ie/wp-content/uploads/2026/09/Traitors_1.jpg",
+      "publishedAt": "2026-09-09T13:42:00Z",
+      "lang": "en",
+      "source": {
+        "id": "3e825dfa21d4478d2f961d27b2ebdc1c",
+        "name": "Extra.ie",
+        "url": "https://extra.ie",
+        "country": "ie"
+      }
+    },
     {
       "id": "4c61a383e4346165ab9e898c71d70819",
       "title": "Say cheese! Farrell football players were instrumental in getting school’s photography club off the ground",
@@ -84,22 +100,6 @@
         "name": "The Tribune",
         "url": "https://www.tribuneindia.com",
         "country": "in"
-      }
-    },
-    {
-      "id": "85ecc8a022a41f5299dcf861d0add4d7",
-      "title": "Troy Parrott heroics earn €34k from a tenner football bet for lucky Irish punter",
-      "description": "Most of their selections came through fairly early, with just a handful of results leaving the punter on edge - including Real Betis who fell behind against Lille in the Champions League",
-      "content": "Most of their selections came through fairly early, with just a handful of results leaving the punter on edge - including Real Betis who fell behind against Lille in the Champions League\nIreland soccer star Troy Parrott has enjoyed an incredible week... [1775 chars]",
-      "url": "https://www.irishmirror.ie/sport/soccer/troy-parrott-heroics-earn-34k-37644181",
-      "image": "https://i2-prod.irishmirror.ie/article37644163.ece/ALTERNATES/s1200d/0_JS417171073.jpg",
-      "publishedAt": "2026-09-09T13:31:20Z",
-      "lang": "en",
-      "source": {
-        "id": "82baeeef63db51e00770028aab26df4b",
-        "name": "Irish Mirror",
-        "url": "https://www.irishmirror.ie",
-        "country": "ie"
       }
     }
   ]
